@@ -1,0 +1,68 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("ff2bc662-31c9-4ea2-bed1-e9844f2c037b",
+	'team',
+	6,
+	'team',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("f85b153a-aae1-45aa-b559-a2ca59bcaedf",
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO O_BATTR
+	VALUES ("f85b153a-aae1-45aa-b559-a2ca59bcaedf",
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO O_ATTR
+	VALUES ("f85b153a-aae1-45aa-b559-a2ca59bcaedf",
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b",
+	"00000000-0000-0000-0000-000000000000",
+	'name',
+	'',
+	'',
+	'name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("7635bfb3-73a9-428e-8681-a97b85106969",
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO O_BATTR
+	VALUES ("7635bfb3-73a9-428e-8681-a97b85106969",
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO O_ATTR
+	VALUES ("7635bfb3-73a9-428e-8681-a97b85106969",
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b",
+	"f85b153a-aae1-45aa-b559-a2ca59bcaedf",
+	'rank',
+	'',
+	'',
+	'rank',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO O_ID
+	VALUES (1,
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO O_ID
+	VALUES (2,
+	"ff2bc662-31c9-4ea2-bed1-e9844f2c037b");
+INSERT INTO PE_PE
+	VALUES ("ff2bc662-31c9-4ea2-bed1-e9844f2c037b",
+	1,
+	"3c67d664-7328-41d2-acda-570aabd2ccf3",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("3c67d664-7328-41d2-acda-570aabd2ccf3",
+	"00000000-0000-0000-0000-000000000000",
+	"1e511ac6-9146-45a2-84f1-fbccffeb2fa4",
+	'game',
+	'',
+	0,
+	'../game.xtuml');
